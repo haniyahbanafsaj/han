@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb(253, 192, 39);
+    color: #000000;
+    font-size: large;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 234, 118);
+    padding: 0.5em;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 1em;
+}
+
+section {
+    padding: 4em;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    font-size: large;
+}
+
+footer {
+    background-color: rgb(226, 198, 36);
+    color: #000000;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
